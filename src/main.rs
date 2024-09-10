@@ -38,7 +38,6 @@ fn main() {
                 let material_name = path.file_name().unwrap().to_string_lossy();
                 println!("{}:", material_name);
 
-                // Step 4: Read each '.material' file
                 let material = match fs::read(&path) {
                     Ok(content) => content,
                     Err(_) => {
@@ -47,7 +46,6 @@ fn main() {
                     }
                 };
 
-                // Step 5: Look for texture matches
                 let mut found_any_matches = false;
                 for check in material.windows(8) {
                     if textures.contains(&check) {
