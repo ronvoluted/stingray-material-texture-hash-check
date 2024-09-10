@@ -1,0 +1,7 @@
+[package]
+name = "stingray-material-texture-hash-check"
+version = "0.1.0"
+edition = "2021"
+authors = ["ronvoluted <5785323+ronvoluted@users.noreply.github.com>", "ManShanko <deathage@gmail.com>"]
+repository = "https://github.com/ronvoluted/stingray-material-texture-hash-check"
+license = "MIT"
