@@ -1,7 +1,7 @@
 # Stingray Material Texture Hash Check
 
 > [!Note]
-> This is a companion tool for limn and credits for code go to @manshanko
+> This is a companion tool for limn and credits go to @manshanko who wrote all the core code
 
 This tool allows you to check Warhammer 40,000: Darktide material files for the textures they contain. It helps with grabbing specific textures instead of having to look through a random list manually.
 
@@ -54,4 +54,4 @@ Found hashes.bin
 
 You can search the `out` folder for DDS files matching those texture IDs and convert them to another image format individually, then delete all the `.material`, `.dds` and `.bin` files.
 
-If you'd like to keep a copy of all textures however, grab and setup [dds-to-img](https://github.com/ronvoluted/dds-to-img) which will convert all DDS files to PNG or WEBM. Besides make textures readily viewable, it has the added benefit of reducing total space usage to 86% (DDS -> PNG). You can delete all `.dds` afterwards.
+If you'd like to keep a copy of all textures however, grab and setup [dds-to-img](https://github.com/ronvoluted/dds-to-img) which will convert all DDS files to PNG or WEBM. Besides making textures readily viewable, it has the added benefit of reducing total space usage to 86% (DDS -> PNG). You can delete all `.dds` afterwards.
