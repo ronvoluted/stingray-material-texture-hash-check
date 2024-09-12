@@ -1,7 +1,7 @@
 # Stingray Material Texture Hash Check
 
 > [!Note]
-> This is a companion tool for limn and credits go to @manshanko who wrote all the core code
+> This is a companion tool for limn and credits go to [manshanko](https://github.com/manshanko) who wrote all the core code
 
 This tool allows you to check Warhammer 40,000: Darktide material files for the textures they contain. It helps with grabbing specific textures instead of having to look through a random list manually.
 
